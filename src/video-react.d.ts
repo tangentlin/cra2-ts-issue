@@ -1,6 +1,6 @@
-import * as React from 'react';
-
 declare module 'video-react' {
+    import * as React from 'react';
+
     export type Length = number | string | 'auto';
 
     export interface IPlayerProps {
